@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <meta name="description"
+    content="Pesantren Tahfidz Qur'an Bilal Bin Robah – mencetak generasi Qur'ani dengan akhlak mulia. Program tahfidz, akhlak, dan kajian Islam terstruktur.">
+  <title>Bilal Bin Robah</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    @media (max-width: 767.98px) {
+      .hero-min-vh-100 {
+        min-height: 100vh;
+      }
+    }
+
+    .card {
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .carousel .carousel-item blockquote {
+      color: #333;
+    }
+
+    .carousel .carousel-item img {
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
+    <div class="container d-flex align-items-center">
+
+      <!-- Logo + Nama -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo.png" alt="Logo" width="40" class="me-2">
+        <span class="fw-bold">Bilal Bin Robah</span>
+      </a>
+
+      <!-- Toggler (hanya tampil di mobile) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu kanan & sejajar vertikal -->
+      <div class="collapse navbar-collapse justify-content-end align-items-center" id="mainNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
+          <li class="nav-item"><a class="nav-link" href="#live">Live</a></li>
+          <li class="nav-item"><a class="nav-link" href="#berita">Berita</a></li>
+          <li class="nav-item"><a class="nav-link" href="#donasi">Donasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <!-- SECTION HERO -->
+  <section class="hero-section position-relative overflow-hidden">
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- KIRI: TEKS + CTA (tengah vertikal di mobile saja) -->
+        <div class="col-md-6 d-flex align-items-center justify-content-center text-dark z-2 hero-min-vh-100">
+          <div class="px-4 py-5 w-100" style="max-width: 600px;">
+            <h1 class="display-4 fw-bold">Selamat Datang di Bilal Bin Robah</h1>
+            <p class="lead">Mencetak generasi Qur'ani dengan akhlak mulia dan hafalan yang kokoh.</p>
+            <a href="#program" class="btn btn-primary btn-lg mt-3">Lihat Program</a>
+          </div>
+        </div>
+
+        <!-- KANAN: GAMBAR (desktop saja) -->
+        <div class="col-md-6 d-none d-md-block p-0">
+          <img src="tahfiz.jpeg" alt="Santri Mengaji" class="img-fluid w-100 h-100 object-fit-cover">
+        </div>
+      </div>
+    </div>
+
+    <!-- GAMBAR BACKGROUND (ponsel) -->
+    <div class="d-block d-md-none position-absolute top-0 start-0 w-100 h-100 z-0">
+      <img src="tahfiz.jpeg" alt="Santri Mengaji" class="w-100 h-100 object-fit-cover" style="opacity: 0.3;">
+    </div>
+  </section>
+
+  <!-- SECTION TENTANG KAMI -->
+  <section id="tentang" class="py-5 bg-light">
+    <div class="container">
+      <!-- Judul dan Subjudul -->
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">Tentang Kami</h2>
+        <p class="text-muted">Mengenal lebih dekat Pesantren Tahfidz Qur'an Bilal Bin Robah</p>
+      </div>
+
+      <div class="row align-items-center flex-column flex-md-row">
+        <!-- Gambar di kiri (desktop), di atas (ponsel) -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="w-100 rounded shadow overflow-hidden" style="aspect-ratio: 1 / 1;">
+            <img src="tentang-kami.jpg" alt="Tentang Kami" class="w-100 h-100 object-fit-cover">
+          </div>
+        </div>
+
+        <!-- Deskripsi dan poin -->
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <div class="px-3 px-md-4">
+            <p class="mb-4">
+              Pesantren kami berdiri dengan visi membentuk generasi Qur'ani yang cerdas, berakhlak, dan cinta Al-Qur'an.
+              Kami menggabungkan metode hafalan mutqin, pembinaan karakter, serta kegiatan keagamaan dan sosial.
+            </p>
+            <ul class="list-unstyled">
+              <li class="mb-3 d-flex">
+                <i class="bi bi-check-circle-fill text-success me-3 fs-4"></i>
+                <span>Program Tahfidz Intensif dengan target 30 juz</span>
+              </li>
+              <li class="mb-3 d-flex">
+                <i class="bi bi-check-circle-fill text-success me-3 fs-4"></i>
+                <span>Pembinaan adab dan akhlak islami</span>
+              </li>
+              <li class="mb-3 d-flex">
+                <i class="bi bi-check-circle-fill text-success me-3 fs-4"></i>
+                <span>Lingkungan belajar yang kondusif dan sejuk</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PROGRAM -->
+  <!-- SECTION PROGRAM UNGGULAN -->
+  <section id="program" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Program Unggulan</h2>
+        <p class="text-muted">Berikut beberapa program utama kami yang menjadi keunggulan pesantren</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Program 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="quran.jpeg" class="card-img-top object-fit-cover" style="aspect-ratio: 4/3;"
+              alt="Program Tahfidz">
+            <div class="card-body">
+              <h5 class="card-title">Program Tahfidz</h5>
+              <p class="card-text">Target hafalan 30 juz dengan metode mutqin dan pembinaan rutin harian.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Program 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="adab.jpeg" class="card-img-top object-fit-cover" style="aspect-ratio: 4/3;"
+              alt="Program Adab & Akhlak">
+            <div class="card-body">
+              <h5 class="card-title">Adab & Akhlak</h5>
+              <p class="card-text">Pembinaan karakter santri sejak dini dengan pendekatan Qur'ani dan nabawi.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Program 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="dirasah.jpeg" class="card-img-top object-fit-cover" style="aspect-ratio: 4/3;"
+              alt="Program Dirasah Islamiyah">
+            <div class="card-body">
+              <h5 class="card-title">Dirasah Islamiyah</h5>
+              <p class="card-text">Kajian kitab, tafsir, fiqih, dan akidah yang terstruktur untuk pemahaman mendalam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION TESTIMONI (Carousel Slide Biasa, Tanpa Panah) -->
+  <section id="testimoni" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Testimoni</h2>
+        <p class="text-muted">Cerita para wali santri & alumni tentang pengalaman mereka di pesantren</p>
+      </div>
+
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-8 text-center">
+                <img src="https://avatar.iran.liara.run/public/95" class="rounded-circle mb-4" alt="Wali Santri" width="80" height="80">
+                <p class="fs-5 fst-italic">"Alhamdulillah, anak saya semakin dekat dengan Qur’an dan lebih disiplin
+                  sejak mondok di sini. Lingkungan yang sejuk dan penuh cinta Qur’an."</p>
+                <h6 class="mt-3 mb-0">Ibu Fatimah</h6>
+                <small class="text-muted">Wali Santri Kelas 8</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-8 text-center">
+                <img src="https://avatar.iran.liara.run/public/13" class="rounded-circle mb-4" alt="Alumni" width="80" height="80">
+                <p class="fs-5 fst-italic">"Saya alumni tahun 2022. Tidak hanya hafalan, saya juga dibekali adab dan
+                  wawasan yang sangat berguna di kampus maupun kehidupan."</p>
+                <h6 class="mt-3 mb-0">Ahmad Rizky</h6>
+                <small class="text-muted">Alumni 2022</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-8 text-center">
+                <img src="https://avatar.iran.liara.run/public/45" class="rounded-circle mb-4" alt="Orang Tua Santri" width="80" height="80">
+                <p class="fs-5 fst-italic">"Program tahfidz dan pembinaan akhlaknya luar biasa. Saya merasa tenang
+                  menitipkan anak saya di sini. Barakallah."</p>
+                <h6 class="mt-3 mb-0">Pak Budi</h6>
+                <small class="text-muted">Orang Tua Santri Baru</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Optional: Indicators -->
+        <div class="carousel-indicators mt-4 d-none">
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION LIVE STREAMING -->
+  <section id="live" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">Live Streaming</h2>
+        <p class="text-muted">Saksikan kegiatan pesantren secara langsung dari mana saja.</p>
+      </div>
+
+      <!-- Embed Live Video -->
+      <div class="ratio ratio-16x9 mb-4">
+        <iframe id="live-video" src="https://www.youtube.com/embed/LIVE_VIDEO_ID" title="Live Streaming"
+          allowfullscreen></iframe>
+      </div>
+
+      <!-- Jadwal Streaming -->
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+          <h5 class="text-center fw-semibold mb-3">Jadwal Live Streaming</h5>
+          <ul class="list-group list-group-flush text-start small">
+            <li class="list-group-item">Senin, 16.00 WIB – Setoran Hafalan</li>
+            <li class="list-group-item">Rabu, 20.00 WIB – Kajian Ustadz Ahmad</li>
+            <li class="list-group-item">Jumat, 08.00 WIB – Doa Bersama dan Tausiyah</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center">
+        <a href="https://www.youtube.com/@akunpesantren" target="_blank" class="btn btn-danger px-4">
+          Kunjungi Channel YouTube
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION PENGUMUMAN & BERITA -->
+  <section id="berita" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Berita & Pengumuman</h2>
+        <p class="text-muted">Update kegiatan, informasi penting, dan berita seputar pesantren</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Item 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="pengumuman1.jpg" class="card-img-top object-fit-cover" style="aspect-ratio: 16 / 9;"
+              alt="Libur Ramadhan">
+            <div class="card-body">
+              <small class="text-muted d-block mb-2">12 Maret 2025</small>
+              <h5 class="card-title">Libur Ramadhan & Idul Fitri</h5>
+              <p class="card-text">Pesantren akan libur mulai 1 Ramadhan hingga 10 Syawal. Santri kembali pada 11
+                Syawal.</p>
+              <a href="#" class="btn btn-sm btn-outline-primary">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="pengumuman2.jpg" class="card-img-top object-fit-cover" style="aspect-ratio: 16 / 9;"
+              alt="Penerimaan Santri Baru">
+            <div class="card-body">
+              <small class="text-muted d-block mb-2">01 Maret 2025</small>
+              <h5 class="card-title">Penerimaan Santri Baru</h5>
+              <p class="card-text">Gelombang ke-2 dibuka hingga 15 Mei. Segera daftarkan putra-putri Anda.</p>
+              <a href="#" class="btn btn-sm btn-outline-success">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="pengumuman3.jpg" class="card-img-top object-fit-cover" style="aspect-ratio: 16 / 9;"
+              alt="Lomba Tahfidz Nasional">
+            <div class="card-body">
+              <small class="text-muted d-block mb-2">22 Februari 2025</small>
+              <h5 class="card-title">Juara Lomba Tahfidz Nasional</h5>
+              <p class="card-text">Santri kami meraih juara 1 kategori 5 juz tingkat nasional. Alhamdulillah!</p>
+              <a href="#" class="btn btn-sm btn-outline-secondary">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION DONASI & WAKAF -->
+  <!-- SECTION DONASI & WAKAF -->
+  <section id="donasi" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Donasi & Wakaf</h2>
+        <p class="text-muted">Dukung perjuangan dakwah dan pendidikan Qur'an bersama kami</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Donasi -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="donasi.jpg" class="card-img-top object-fit-cover" style="aspect-ratio: 16 / 9;" alt="Donasi">
+            <div class="card-body">
+              <h5 class="card-title">Donasi Operasional</h5>
+              <p class="card-text">Bantu kebutuhan harian santri dan operasional pesantren seperti makan, listrik, air,
+                dan kitab.</p>
+              <a href="#" class="btn btn-primary">Donasi Sekarang</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wakaf -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="wakaf.jpg" class="card-img-top object-fit-cover" style="aspect-ratio: 16 / 9;" alt="Wakaf">
+            <div class="card-body">
+              <h5 class="card-title">Wakaf Pembangunan Asrama</h5>
+              <p class="card-text">Ikut andil dalam pembangunan ruang belajar dan asrama santri penghafal Al-Qur'an.</p>
+              <a href="#" class="btn btn-success">Wakaf Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONASI DENGAN TARGET -->
+  <section id="donasi-target" class="py-5" style="background-color: #fff7e6;">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Donasi Program Khusus</h2>
+        <p class="text-muted">Berikut adalah program donasi dengan target tertentu</p>
+      </div>
+
+      <div class="row justify-content-center g-4">
+
+        <!-- Donasi 1: Tempat Wudhu -->
+        <div class="col-md-6 donasi-item" id="donasi-wudhu">
+          <div class="card shadow-sm border-0 h-100">
+            <img src="donasi-target.jpg" class="card-img-top object-fit-cover" style="aspect-ratio: 16/9;"
+              alt="Donasi Tempat Wudhu">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Donasi Pembangunan Tempat Wudhu</h5>
+              <p class="card-text">Mari wujudkan fasilitas wudhu yang nyaman bagi para santri. Target: Rp10.000.000</p>
+
+              <div class="mb-2 small text-muted">
+                Terkumpul: <strong>Rp2.000.000</strong> dari Rp10.000.000
+              </div>
+              <div class="progress mb-3" style="height: 20px;">
+                <div class="progress-bar bg-success" style="width: 20%;" role="progressbar" aria-valuenow="2000000"
+                  aria-valuemin="0" aria-valuemax="10000000">
+                  20%
+                </div>
+              </div>
+              <a href="#" class="btn btn-success mt-auto">Donasi Sekarang</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Donasi 2: Tempat Parkir -->
+        <div class="col-md-6 donasi-item" id="donasi-parkir">
+          <div class="card shadow-sm border-0 h-100">
+            <img src="donasi-parkir.jpg" class="card-img-top object-fit-cover" style="aspect-ratio: 16/9;"
+              alt="Donasi Tempat Parkir">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Donasi Pembangunan Tempat Parkir</h5>
+              <p class="card-text">Bantu kami menyediakan area parkir yang layak untuk tamu dan santri. Target:
+                Rp12.000.000</p>
+
+              <div class="mb-2 small text-muted">
+                Terkumpul: <strong>Rp3.000.000</strong> dari Rp12.000.000
+              </div>
+              <div class="progress mb-3" style="height: 20px;">
+                <div class="progress-bar bg-success" style="width: 25%;" role="progressbar" aria-valuenow="3000000"
+                  aria-valuemin="0" aria-valuemax="12000000">
+                  25%
+                </div>
+              </div>
+              <a href="#" class="btn btn-success mt-auto">Donasi Sekarang</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <!-- SECTION KONTAK KAMI -->
+  <section id="kontak" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center text-md-start">
+        <h2 class="fw-bold mb-3">Kontak Kami</h2>
+        <p class="text-muted mb-4">Silakan hubungi kami untuk informasi lebih lanjut atau kerja sama dakwah.</p>
+
+        <ul class="list-unstyled mb-4">
+          <li class="mb-2">
+            <strong>Alamat:</strong><br>
+            Jl. Pesantren Qur'an No.123, Samboja
+          </li>
+          <li class="mb-2">
+            <strong>Telepon:</strong><br>
+            <a href="tel:+6281234567890" class="text-decoration-none text-dark">+62 812 3456 7890</a>
+          </li>
+          <li class="mb-2">
+            <strong>Email:</strong><br>
+            <a href="mailto:info@pesantrenquran.sch.id"
+              class="text-decoration-none text-dark">info@bilalbinrobah.sch.id</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row text-center text-md-start gy-4">
+
+        <!-- Logo dan Deskripsi -->
+        <div class="col-md-4">
+          <h5 class="fw-bold">Pesantren Qur'an Bilal Bin Robah</h5>
+          <p class="small">Sekolah tahfidz yang berkomitmen melahirkan generasi cinta Al-Qur’an, berakhlak mulia, dan
+            berdedikasi tinggi.</p>
+        </div>
+
+        <!-- Navigasi Cepat -->
+        <div class="col-md-4">
+          <h6 class="fw-semibold mb-3">Navigasi</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-white text-decoration-none">Beranda</a></li>
+            <li><a href="#tentang" class="text-white text-decoration-none">Tentang Kami</a></li>
+            <li><a href="#program" class="text-white text-decoration-none">Program</a></li>
+            <li><a href="#pengumuman" class="text-white text-decoration-none">Pengumuman</a></li>
+            <li><a href="#donasi" class="text-white text-decoration-none">Donasi & Wakaf</a></li>
+            <li><a href="#kontak" class="text-white text-decoration-none">Kontak</a></li>
+          </ul>
+        </div>
+
+        <!-- Info Kontak + Sosial Media -->
+        <div class="col-md-4">
+          <h6 class="fw-semibold mb-3">Kontak</h6>
+          <p class="small mb-1">Jl. Pesantren Qur'an No.123, Samboja</p>
+          <p class="small mb-1">WA: <a href="https://wa.me/6281234567890" class="text-white text-decoration-none">+62
+              812 3456 7890</a></p>
+          <p class="small">Email: <a href="mailto:info@pesantrenquran.sch.id"
+              class="text-white text-decoration-none">info@bilalbinrobah.sch.id</a></p>
+
+          <!-- Sosial Media -->
+          <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+            <a href="https://facebook.com/akunpesantren" target="_blank" class="text-white fs-5">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com/akunpesantren" target="_blank" class="text-white fs-5">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://youtube.com/akunpesantren" target="_blank" class="text-white fs-5">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://wa.me/6281234567890" target="_blank" class="text-white fs-5">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="border-light mt-4">
+
+      <!-- Copyright -->
+      <div class="text-center small">
+        &copy; 2025 Bilal Bin Robah. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const videoMap = {
+      1: "youtube_id_senin",
+      3: "youtube_id_rabu",
+      5: "youtube_id_jumat"
+    };
+
+    const today = new Date().getDay(); // 0=Sunday, 1=Monday, etc.
+    const videoId = videoMap[today] || "default_id";
+    document.getElementById("live-video").src = `https://www.youtube.com/embed/${videoId}`;
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+      const items = document.querySelectorAll('#testimonialCarousel .carousel-item');
+      const carouselInner = document.querySelector('#testimonialCarousel .carousel-inner');
+
+      let maxHeight = 0;
+
+      items.forEach(item => {
+        item.classList.add('d-block'); // pastikan semua visible untuk ukur tinggi
+        const height = item.offsetHeight;
+        if (height > maxHeight) maxHeight = height;
+        item.classList.remove('d-block');
+      });
+
+      carouselInner.style.minHeight = maxHeight + 'px';
+    });
+  </script>
+</body>
+
+</html>
